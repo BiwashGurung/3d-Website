@@ -45,6 +45,7 @@ body{
     transform-origin: right;
 }
 .cover-left {
+    z-index: -1;
 }
 .cover-right {
 }
