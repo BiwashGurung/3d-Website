@@ -144,7 +144,7 @@ body{
 
 }
 .btn:hover{
-    border:#00abf0;
+    border: transparent;
     color: var(--main-color);
 }
 .btn-box .btn:nth-child(2){
