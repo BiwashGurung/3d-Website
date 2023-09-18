@@ -96,6 +96,27 @@ body{
     color: var(--main-color);
 }
 
+.profile-page .social-media{
+   
+    margin: .6rem 0 .8rem;
+}
+
+.profile-page .social-media a {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border: var(--border);
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: var(--main-color);
+    margin: 0 .2rem;
+}
+
+
+
 
 
 
