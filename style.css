@@ -97,12 +97,11 @@ body{
 }
 
 .profile-page .social-media{
-   
-    margin: .6rem 0 .8rem;
+   margin: .6rem 0 .8rem;
 }
 
 .profile-page .social-media a {
-    display: inline-block;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 2.5rem;
@@ -141,9 +140,10 @@ body{
     color: var(--white-color);
     font-weight: 500;
     margin: 0 1rem;
+    transition: .5s;
 
 }
-.bth:hover{
+.btn:hover{
     border: transparent;
     color: var(--main-color);
 }
