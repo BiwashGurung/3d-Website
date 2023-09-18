@@ -120,6 +120,10 @@ body{
     color: var(--white-color);
 }
 
+.profile-page p{
+    text-align: justify;
+}
+
 
 
 
