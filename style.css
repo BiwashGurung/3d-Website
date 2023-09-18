@@ -40,13 +40,13 @@ body{
     height: 100%;
     background: var(--cover-color);
     box-shadow: var(--box-shadow);
-    border-top-right-radius: .6rem;
+    border-top-left-radius: .6rem;
     border-bottom-left-radius: .6rem;
     transform-origin: right;
 }
-.cover-left {
+.cover.cover-left {
     z-index: -1;
 }
-.cover-right.turn {
+.cover.cover-right.turn {
     transform: rotateY(180deg);
 }
