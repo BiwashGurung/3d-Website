@@ -47,5 +47,6 @@ body{
 .cover-left {
     z-index: -1;
 }
-.cover-right {
+.cover-right.turn {
+    transform: rotateY(180deg);
 }
