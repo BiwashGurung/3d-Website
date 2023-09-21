@@ -189,6 +189,26 @@ body{
     margin-bottom: 1rem;
 
 }
+.workexp-box{
+   border-left:var(--border) ; 
+}
+.workexp-box .workexp-content{
+    position: relative;
+    padding-left:  1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.workexp-box .workexp-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:  -0.65;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: var(--main-color);
+    border-radius: 90%;
+
+}
 
 .workexp-content .year{
     color: var(--main-color);
