@@ -336,11 +336,17 @@ body{
     height: 15rem;
     border: var(--border);
     border-radius: .5rem;
+    overflow: hidden;
 }
 .portfolio-box .img-box img {
     width: 100%;
     object-fit: cover;
+    transition: .5s ease;
 }
+.portfolio-box .img-box:hover img {
+    transform: scale(1.1);
+}
+
 
 
 
