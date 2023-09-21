@@ -291,7 +291,7 @@ body{
 .skills-box {
     display: flex;
     flex-wrap: wrap;
-    gap:  1.5rem;
+    gap:1.5rem;
 }
 
 .skills-box .skills-content{
@@ -310,13 +310,14 @@ body{
     gap: .8rem;
 }
 .skills-content .content span {
-    display: inline-block;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 6rem;
     height: 5rem;
     border: var(--border);
-    border-radius: .3rem;
+    border-radius:.3rem;
     font-weight: 600;
 
 }
