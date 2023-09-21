@@ -162,6 +162,7 @@ body{
     position: absolute;
     right: 0;
     transform-style: preserve-3d;
+    transform-origin: left ;
 }
 .book-page.page-right.turn{
     transform: rotateY(-180deg);
