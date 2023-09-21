@@ -192,29 +192,29 @@ body{
 .workexp-box{
    border-left:var(--border) ; 
 }
-.workexp-box .workexp-content{
+.workexp-box .workexp-content {
     position: relative;
     padding-left:  1.2rem;
     margin-bottom: 1.2rem;
 }
 
-.workexp-box .workexp-content::before{
+.workexp-box.workexp-content::before {
     content: '';
     position: absolute;
     top: 0;
-    left:  -0.65;
-    width: 1.2rem;
-    height: 1.2rem;
+    left:-0.65 rem;
+    width: 1.6 rem;
+    height: 1.2 rem;
     background: var(--main-color);
-    border-radius: 90%;
+    border-radius: 50%;
 
 }
 
-.workexp-content .year{
+.workexp-content .year {
     color: var(--main-color);
 }
 
-.workexp-content .year i{
+.workexp-content .year i {
     margin-right: .4rem;
 }
 
