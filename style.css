@@ -291,6 +291,12 @@ body{
 .skills-box {
     display: flex;
     flex-wrap: wrap;
+    gap:  1.5rem;
+}
+
+.skills-box .skills-content{
+    flex: 1 1 20rem;
+
 }
 
 
