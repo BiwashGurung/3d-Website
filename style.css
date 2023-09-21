@@ -307,6 +307,18 @@ body{
 .skills-content .content{
     display: flex;
     flex-wrap: wrap;
+    gap: .8rem;
+}
+.skills-content .content span {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    width: 6rem;
+    height: 5rem;
+    border: var(--border);
+    border-radius: .3rem;
+    font-weight: 600;
+
 }
 
 
