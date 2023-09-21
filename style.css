@@ -288,6 +288,10 @@ body{
     height: 2.5rem;
 
 }
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
