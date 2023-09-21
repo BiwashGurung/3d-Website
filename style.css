@@ -304,6 +304,12 @@ body{
     margin-bottom: .6rem;
 }
 
+.skills-content .content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 
 
 
