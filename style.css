@@ -218,6 +218,14 @@ body{
     margin-right: .4rem;
 }
 
+.number-page{
+    position: absolute;
+    bottom: 1.2 rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
 
 
 
