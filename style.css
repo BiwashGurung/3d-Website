@@ -366,6 +366,10 @@ body{
     color: var(--main-color);
 }
 
+.portfolio-box .info-box .info-title a i {
+    margin-left: .3rem;
+}
+
 
 
 
