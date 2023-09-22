@@ -20,3 +20,4 @@ pageTurnBtn.forEach((el , index) => {
         }
     }
 })
+
