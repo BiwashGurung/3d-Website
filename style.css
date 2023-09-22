@@ -373,6 +373,11 @@ body{
     font-weight: 600;
 }
 
+.portfolio-box .btn-box {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
