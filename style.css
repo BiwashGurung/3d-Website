@@ -369,6 +369,9 @@ body{
 .portfolio-box .info-box .info-title a i {
     margin-left: .3rem;
 }
+.portfolio-box .info-box p:nth-of-type(1) {
+    font-weight: 600;
+}
 
 
 
