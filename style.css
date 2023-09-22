@@ -360,6 +360,11 @@ body{
 .portfolio-box .info-box .info-title h3 {
     font-size: 1.3rem;
 }
+.portfolio-box .info-box .info-title a {
+    display: flex;
+    align-items: center;
+    color: var(--main-color);
+}
 
 
 
