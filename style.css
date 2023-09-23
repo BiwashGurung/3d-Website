@@ -389,7 +389,14 @@ body{
     font-size: 1.1rem;
     color: var(--main-color);
     display: inline-flex;
+}
 
+.back-profile p {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(.5);
+    font-size: 1rem;
 }
 
 
