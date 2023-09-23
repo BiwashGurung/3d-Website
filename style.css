@@ -35,7 +35,9 @@ body{
     width: 66rem;
     height: 45rem;
     padding: 2rem; 
+    perspective: 250rem;
     animation: show-animate 2s forwards;
+
 }
 @keyframes show-animate{
     0%,30% {
