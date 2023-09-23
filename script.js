@@ -79,6 +79,11 @@ setTimeout(() => {
     coverRight.style.zIndex = -1;
 }, 2800)
 
+//page left
+setTimeout(() => {
+    pageLeft.style.zIndex = 20;
+}, 3200)
+
 
 //opening animation (all page right animation)
  pages.forEach((_, index) => {
