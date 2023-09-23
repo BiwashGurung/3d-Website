@@ -260,7 +260,7 @@ body{
 }
 
 .services-box .services-content{
-    flex: 1 1 10rem;
+   display:inline-table;
     border: var(--border);
     border-radius: .5rem;
     padding: .8rem .5rem 1.1rem;
@@ -283,7 +283,7 @@ body{
 }
 
 .services-content p {
-    margin: .6rem 0 .6rem;
+    margin: .2rem 0 .8rem;
 }
 .services-content .btn {
     width: 8rem;
