@@ -362,15 +362,9 @@ body{
 .portfolio-box .info-box .info-title h3 {
     font-size: 1.3rem;
 }
-.portfolio-box .info-box .info-title a {
-    display: flex;
-    align-items: center;
-    color: var(--main-color);
-}
 
-.portfolio-box .info-box .info-title a i {
-    margin-left: .3rem;
-}
+
+
 .portfolio-box .info-box p:nth-of-type(1) {
     font-weight: 600;
 }
