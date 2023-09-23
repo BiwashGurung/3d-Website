@@ -393,6 +393,10 @@ body{
     align-items: center;
     transition: .5s;
 }
+.back-profile:hover{
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
 
 .back-profile p {
     position: absolute;
