@@ -34,8 +34,11 @@ body{
     position: relative;
     width: 66rem;
     height: 45rem;
-    padding: 2rem;
-  
+    padding: 2rem; 
+    animation: show-animate 2s forwards;
+}
+@keyframes show-animate{
+
 }
 .cover {
     position: absolute;
