@@ -65,3 +65,7 @@ backProfileBtn.onclick = () => {
         }, (index + 1)* 200 + 100)
     })
 }
+
+//opening animaion
+const coverRight = document.querySelector('cover.coverright');
+
