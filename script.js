@@ -38,6 +38,16 @@ contactMeBtn.onclick = () => {
     })
 }
 
+//reverse index function
+let totalPages = pages.length;
+let pageNumber = 0;
+
+function reverseIndex(){
+    pageNumber--;
+    if (pageNumber < 0) {
+        pageNumber = totalPages - 1;
+    }
+}
 
 //back profile when click
 const backProfileBtn = document.querySelector('.back-profile');
@@ -55,5 +65,4 @@ backProfileBtn.onclick = () => {
         }, (index + 1)* 200 + 100)
     })
 }
-
 
